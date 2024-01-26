@@ -47,14 +47,7 @@ nav{
 	padding-bottom: 5px;
 }
 
-img{
-    padding-top: 10px;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-}
-
-.img{
+section{
     text-align: center;
 }
 

@@ -47,15 +47,32 @@ nav{
 	padding-bottom: 5px;
 }
 
-img{
-    padding-top: 10px;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+.form{
+    text-align: center;
+    display: block;
+}
+.form-button{
+	padding: 10px;
+	border: none;
+	background-color: lightgray;
+	color: black;
+	cursor: pointer;
+    margin-bottom: 10px;
 }
 
-.img{
+form input,
+form textarea {
+    width: 30%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
     text-align: center;
+}
+
+#message{
+    resize: none;
+    width: 30%;
+    vertical-align: middle;
 }
 
 footer{
