@@ -68,16 +68,26 @@ sidebar{
 	text-decoration: none;
 }
 
-.sidebar-form input,
-.sidebar-form textarea {
+form input,
+form textarea {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
     box-sizing: border-box;
 }
 
-button{
-	border-radius: -90px;
+.sidebar-form-button{
+	padding: 10px;
+	border: none;
+	background-color: lightgray;
+	color: black;
+	cursor: pointer;
+}
+
+.sidebar-form-button:hover{
+	background-color: rgb(67, 161, 192);
+	color: black;
+	font-weight: bold;
 }
 
 .section-principal{
@@ -86,9 +96,9 @@ button{
 }
 
 footer{
-	background-color: lightgray;
 	text-align: center;
 	padding: 20px;
+	background-color: lightgray;
 }
 
 
